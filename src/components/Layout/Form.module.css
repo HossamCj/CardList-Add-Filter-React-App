@@ -1,0 +1,61 @@
+.control {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+}
+
+.control label {
+    font-weight: bold;
+    direction: rtl;
+    color: #212121;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.control input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    color: #495057;
+    direction: rtl;
+    font-size: 15px;
+    display: flex;
+}
+
+.uniqueBtn {
+    border: none;
+    border-radius: 4px;
+
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 20px; */
+    margin: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    transition: .7s;
+    opacity: 0.8;
+}
+
+.newRecBtn {
+    background-color: dodgerblue;
+    color: #FFF;
+}
+
+.orangeBtn {
+    background-color: darkorange;
+    color: #FFF;
+}
+

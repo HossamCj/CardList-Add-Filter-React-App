@@ -1,0 +1,41 @@
+.cardWrapper { 
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.deleteBtn {
+    background-color: black;
+    color: white;
+
+    padding: 3px;
+    margin-top: 10px;
+    border-radius: 50%;
+    width: 20px;
+
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+
+    position: absolute;
+    top: -25px;
+    right: 320px;
+}
+
+.deleteBtn:hover {
+    color: white;
+    background-color: coral;
+    width: 15px;
+}
+
+.lightGreenBg { 
+    background-color: lightgreen;
+}
+
+.grayBg { 
+    background-color: #DDD;
+}

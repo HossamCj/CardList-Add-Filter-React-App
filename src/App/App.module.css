@@ -1,0 +1,64 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+    direction: rtl;
+}
+
+    
+.deleteBtn {
+    color: black !important
+}
+
+.uniqueBtn {
+    border: none;
+    border-radius: 4px;
+
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    transition: .7s;
+    opacity: 0.8;
+}
+
+.orangeBtn {
+    background-color: darkorange;
+    color: #FFF;
+}
+
+.uniqueBtn:hover {
+    opacity: 1;
+    transition: .7s;
+    width: 170px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.newRecBtn {
+    background-color: dodgerblue;
+    color: #FFF;
+}
+
+.show {
+    display: block;
+    transition: .7s;
+}
+
+.hide {
+    display: none;
+    transition: .7s;
+}
+

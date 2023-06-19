@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+Project Name: CardList (Add || Filter) React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
+This project is a frontend application built using React. It allows users to manage a list of user data, including their names, ages, addresses, phone numbers, and genders. Users can add new users, filter the list based on names, and delete existing users.
 
-## Available Scripts
+Project Structure
+The project follows a modular structure with the following components:
 
-In the project directory, you can run:
+App.js: The main component that handles the overall application logic and renders other components.
+AddUser.js: A component that provides a form to add new users to the list.
+Card.js: A component that displays the details of a user in a card format.
+CardList.js: A component that renders a list of user cards.
+FilterInput.js: A component that enables filtering the list of users based on their names.
+Button.js: A reusable component that provides button functionality for the application.
+Form.js: A reusable component that represents a form structure.
+Modal.js: A component that displays a modal overlay for adding new users.
+Usage
+To use this project locally, follow these steps:
 
-### `npm start`
+Clone the repository to your local machine.
+Install the necessary dependencies by running npm install in the project directory.
+Start the development server by running npm start.
+Access the application in your web browser at http://localhost:3000.
+Dependencies
+This project relies on the following dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React: A JavaScript library for building user interfaces.
+React-DOM: Provides DOM-specific methods for React components.
+CSS Modules: Enables local scoping of CSS styles in React components.
+Notes
+The user data is stored in the state of the App component using the useState hook.
+The CardList component dynamically renders user cards based on the filtered or unfiltered user data.
+The FilterInput component enables filtering the user list based on name input.
+The AddUser component provides a form to add new users to the list.
+Please ensure you have Node.js and npm installed on your system to run this project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize and enhance this project according to your requirements. Happy coding!

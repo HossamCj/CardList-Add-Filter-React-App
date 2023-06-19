@@ -1,0 +1,48 @@
+.formSaveBtn {
+    width: 40%;
+    /* margin: 0 auto; */
+
+    opacity: 0.9;
+    transition: 0.8s;
+
+    font-size: 17px;
+    text-align: center;
+
+    color: #FFF;
+    background-color: #280;
+    display: inline-block;
+}
+
+.formSaveBtn:hover {
+    /* width: 50%; */
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 18px;
+    color: #FFF;
+    background-color: green;
+}
+
+.formResetBtn {
+    width: 40%;
+    margin: 0 auto;
+
+    opacity: 0.9;
+    transition: 0.8s;
+
+    font-size: 17px;
+    text-align: center;
+
+    color: #FFF;
+    background-color: dodgerblue;
+    display: inline-block;
+
+}
+
+.formResetBtn:hover {
+    /* width: 50%; */
+    opacity: 1;
+    transition: 0.8s;
+    font-size: 18px;
+    color: #FFF;
+    background-color: dodgerblue;
+}
