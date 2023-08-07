@@ -15,7 +15,7 @@ const App = () => {
 	const [state, setState] = useState([
 		{
 			id: 1000,
-			name: "حسام بن حسن",
+			name: "أبو نوح بن حسن",
 			age: 26,
 			address: "البراجيل",
 			phone: "02248482284",
@@ -31,7 +31,7 @@ const App = () => {
 		},
 		{
 			id: 3000,
-			name: "أبي بن حسان",
+			name: "بن حسام",
 			age: 4,
 			address: "الجيزة",
 			phone: "02248482284",
@@ -39,11 +39,11 @@ const App = () => {
 		},
 		{
 			id: 4000,
-			name: "رجب بن القاسم",
+			name: "موسي بن محمود بن داوُد",
 			age: 2,
 			address: "مصر",
 			phone: "02248482284",
-			gender: 'انثى'
+			gender: 'ذكر'
 		},
 
 	])
